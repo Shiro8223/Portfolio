@@ -14,21 +14,21 @@ export default function Projects() {
       title: "VahallaKetta",
       description:
         "A Next.js portfolio site for established exotic cat breeders.",
-      thumbnail: "/images/VK-thumbnail.jpg",
+      thumbnail: "/images/vk-thumbnail.jpg",
       link: "https://vahallakettasavannahs.co.uk", 
     },
     {
       title: "Pokemon Spin the wheel",
       description:
         "a fun project idea using javascript and API's to select 2 random pokemon to eliminate with imported sprite data. (Starting spin delay of 10 seconds for automation purposes)",
-      thumbnail: "/images/PS-thumbnail.jpg",
+      thumbnail: "/images/ps-thumbnail.jpg",
       link: "https://shiro8223.github.io/PokeSpinner/",
     },
     {
       title: "Sorting Algorithm Visualizer",
       description:
         "A univeristy web dev project that uses HTML,CSS,JS to display visual demonstrations of different sorting algorithms.",
-      thumbnail: "/images/SAV-thumbnail.jpg",
+      thumbnail: "/images/sav-thumbnail.jpg",
       link: "https://shiro8223.github.io/SortingAlgorithmVisualizer/",
     },
     
