@@ -34,7 +34,6 @@ export default function Navbar() {
           <a href="#projects" className="nav-link" onClick={go("projects")}>Work</a>
           <a href="#Resume" className="nav-link" onClick={go("aboutMe")}>Resume</a>
           <a href="#contact" className="nav-link" onClick={go("contact")}>Contact</a>
-          <a href="#Blog" className="nav-link" onClick={go("Blog")}>Blog</a>
         </div>
 
         {/* Mobile hamburger */}
