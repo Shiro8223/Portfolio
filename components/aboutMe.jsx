@@ -95,6 +95,20 @@ export default function AboutMe() {
             <span className="text-zinc-600 text-sm">2016–2021</span>
           </div>
         </div>
+        {/* Education */}
+        <div>
+          <h2 className="text-2xl font-semibold mb-2 text-black">Awards</h2>
+          <div className="flex flex-col gap-1">
+            <span className="font-medium text-black">
+              University of Oxford Bebras 
+            </span>
+            <span className="text-zinc-600 text-sm">Certificate of Gold 2023</span>
+            <span className="text-zinc-600 text-sm">Certificate of Distinction 2021</span>
+            <span className="font-medium text-black">
+              Computer science - Academic Excellence Certificate 
+            </span>
+          </div>
+        </div>
         {/* Footer / Download */}
         <div className="mt-6">
           <a
