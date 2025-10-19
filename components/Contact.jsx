@@ -144,9 +144,7 @@ export default function Contact() {
               </text>
             </svg>
           </div>
-          <button type="submit" className="bg-black text-white py-2 rounded-lg font-semibold hover:bg-pink-600 transition-colors mt-2">
-              View my Resume
-            </button>
+          
         </div>
       </div>
     </section>
