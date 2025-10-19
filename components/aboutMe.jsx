@@ -5,19 +5,33 @@ export default function AboutMe() {
       className="min-h-screen w-full bg-white flex flex-col items-center justify-center px-4 py-20"
     >
       <div className="w-full max-w-3xl flex flex-col gap-8">
-        {/* Header */}
-        <div>
-          <h1 className="text-4xl md:text-5xl font-bold text-black mb-2">
-            Resume
-          </h1>
-          <p className="text-zinc-700 text-lg mb-4">
-            Software Engineer, Web Developer, Creator.
-          </p>
-          <p className="text-zinc-600 text-base leading-relaxed">
-            I’m Shaun Taylor, a developer passionate about creative, effective solutions and strong digital experiences. I enjoy working at the intersection of design and engineering, with a focus on simplicity and clarity in every project.<br /><br />
-            With hands-on experience in React, Next.js, Tailwind CSS, and a variety of web technologies, I love turning ideas into reality. Whether collaborating with teams or building solo, I’m all about delivering polished products that make a real difference.
-          </p>
+        {/* Header (title + inline button) */}
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+          <div>
+            <h1 className="text-4xl md:text-5xl font-bold text-black mb-1">
+              Resume
+            </h1>
+            <p className="text-zinc-700 text-lg">
+              Software Engineer, Web Developer, Creator.
+            </p>
+          </div>
+
+          <a
+            href="/TAYLOR_SHAUN_CV.pdf"
+            className="shrink-0 inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-black text-white font-semibold hover:bg-pink-600 transition-colors text-base"
+            download
+            aria-label="Download CV"
+          >
+            Download CV
+          </a>
         </div>
+
+        {/* Intro */}
+        <p className="text-zinc-600 text-base leading-relaxed">
+          I’m Shaun Taylor, a developer passionate about creative, effective solutions and strong digital experiences. I enjoy working at the intersection of design and engineering, with a focus on simplicity and clarity in every project.<br /><br />
+          With hands-on experience in React, Next.js, Tailwind CSS, and a variety of web technologies, I love turning ideas into reality. Whether collaborating with teams or building solo, I’m all about delivering polished products that make a real difference.
+        </p>
+
         {/* Skills Grid */}
         <div>
           <h2 className="text-2xl font-semibold mb-2 text-black">Skills</h2>
@@ -35,6 +49,7 @@ export default function AboutMe() {
             ))}
           </div>
         </div>
+
         {/* Experience Timeline */}
         <div>
           <h2 className="text-2xl font-semibold mb-2 text-black">Experience</h2>
@@ -69,6 +84,7 @@ export default function AboutMe() {
             </li>
           </ul>
         </div>
+
         {/* Education */}
         <div>
           <h2 className="text-2xl font-semibold mb-2 text-black">Education</h2>
@@ -95,7 +111,8 @@ export default function AboutMe() {
             <span className="text-zinc-600 text-sm">2016–2021</span>
           </div>
         </div>
-        {/* Education */}
+
+        {/* Awards */}
         <div>
           <h2 className="text-2xl font-semibold mb-2 text-black">Awards</h2>
           <div className="flex flex-col gap-1">
@@ -108,16 +125,6 @@ export default function AboutMe() {
               Computer science - Academic Excellence Certificate 
             </span>
           </div>
-        </div>
-        {/* Footer / Download */}
-        <div className="mt-6">
-          <a
-            href="/your-cv.pdf"
-            className="inline-block px-6 py-2 rounded-lg bg-black text-white font-semibold hover:bg-pink-600 transition-colors text-base"
-            download
-          >
-            Download CV
-          </a>
         </div>
       </div>
     </section>
