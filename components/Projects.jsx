@@ -13,7 +13,7 @@ export default function Projects() {
     {
       title: "VahallaKetta",
       description:
-        "A Next.js portfolio site for established exotic cat breeders.",
+        "Delivered a production Next.js site (TS + Tailwind) on Vercel with server-side data rendering, email pipeline with env-based secrets, image optimization, and structured data. Implemented on-demand ISR to keep cat listings fresh without full redeploys.",
       thumbnail: "/images/vk-thumbnail.jpg",
       link: "https://vahallakettasavannahs.co.uk", 
     },
