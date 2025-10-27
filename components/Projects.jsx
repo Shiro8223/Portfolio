@@ -13,7 +13,7 @@ export default function Projects() {
     {
       title: "VahallaKetta",
       description:
-        "Delivered a production Next.js site (TS + Tailwind) on Vercel with server-side data rendering, email pipeline with env-based secrets, image optimization, and structured data. Implemented on-demand ISR to keep cat listings fresh without full redeploys.",
+        "Delivered a production Next.js site (TS, React and Tailwind) on Vercel with server-side data rendering, email pipeline with env-based secrets, image optimization, and structured data. Implemented on-demand ISR to keep cat listings fresh without full redeploys.",
       thumbnail: "/images/vk-thumbnail.jpg",
       link: "https://vahallakettasavannahs.co.uk", 
     },
@@ -31,6 +31,13 @@ export default function Projects() {
       thumbnail: "/images/sav-thumbnail.jpg",
       link: "https://shiro8223.github.io/SortingAlgorithmVisualizer/",
     },
+    {
+    title: "Skill Tree maker",
+      description:
+        "A Next.js (TS, React and Tailwind) project for designing skill trees, adding + customising nodes with connection lines, exporting and importing projects on local storage as .json files on an infinite grid!",
+      thumbnail: "/images/st-thumbnail.jpg",
+      link: "https://skill-tree-43o6tubu9-shaun-taylors-projects.vercel.app",
+    }
     
   ];
 
