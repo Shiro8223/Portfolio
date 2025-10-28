@@ -35,7 +35,7 @@ export default function Projects() {
     title: "Skill Tree maker",
       description:
         "A Next.js (TS, React and Tailwind) project for designing skill trees, adding + customising nodes with connection lines, exporting and importing projects on local storage as .json files on an infinite draggable grid!",
-      thumbnail: "/images/st-thumbnail.jpg",
+      thumbnail: "/images/st-thumbnail.JPG",
       link: "https://skill-tree-43o6tubu9-shaun-taylors-projects.vercel.app",
     }
     
