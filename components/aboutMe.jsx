@@ -86,20 +86,6 @@ export default function AboutMe() {
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 bg-pink-500 rounded-full block"></span>
                 <span className="text-black font-semibold">
-                  UoM Quant trading challenge
-                </span>
-                <span className="text-xs text-zinc-500 ml-3">
-                  2025
-                </span>
-              </div>
-              <p className="ml-5 text-zinc-700 text-sm">
-                Used Python in a team environemnt to simulate trades on a server hosted with an internal API for high volume risk based trading.
-              </p>
-            </li>
-            <li>
-              <div className="flex items-center gap-2">
-                <span className="w-3 h-3 bg-pink-500 rounded-full block"></span>
-                <span className="text-black font-semibold">
                   Housr Cashback System Challenge
                 </span>
                 <span className="text-xs text-zinc-500 ml-3">
@@ -110,6 +96,21 @@ export default function AboutMe() {
                 Worked with a team to create a NextJs deployment using Typescript, Tailwind, React, Prisma DB and Framer Motion in a competitve environment.
               </p>
             </li>
+            <li>
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 bg-pink-500 rounded-full block"></span>
+                <span className="text-black font-semibold">
+                  UoM Quant trading challenge
+                </span>
+                <span className="text-xs text-zinc-500 ml-3">
+                  2025
+                </span>
+              </div>
+              <p className="ml-5 text-zinc-700 text-sm">
+                Used Python in a team environemnt to simulate trades on a server hosted with an internal API for high volume risk based trading.
+              </p>
+            </li>
+            
             <li>
               <div className="flex items-center gap-2">
                 <span className="w-3 h-3 bg-pink-500 rounded-full block"></span>
