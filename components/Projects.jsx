@@ -32,11 +32,11 @@ export default function Projects() {
       link: "https://shiro8223.github.io/SortingAlgorithmVisualizer/",
     },
     {
-    title: "Skill Tree maker",
+    title: "Cortex Tree",
       description:
-        "A Next.js (TS, React and Tailwind) project for designing skill trees, adding + customising nodes with connection lines, exporting and importing projects on local storage as .json files on an infinite draggable grid!",
+        "An AI driven Vertical scaling full stack B2B and B2C SaaS for creating complex reactive skill tree's with Next.Js, React, Tailwind, Typsescript, Supabase hosted on Vercel with a custom domain with Google Oauth authentication.",
       thumbnail: "/images/st-thumbnail.JPG",
-      link: "https://skill-tree-ebon.vercel.app",
+      link: "https://cortextree.com",
     }
     
   ];
