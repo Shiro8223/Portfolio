@@ -37,6 +37,13 @@ export default function Projects() {
         "An AI driven Vertical scaling full stack B2B and B2C SaaS for creating complex reactive skill tree's with Next.Js, React, Tailwind, Typsescript, Supabase hosted on Vercel with a custom domain with Google Oauth authentication.",
       thumbnail: "/images/st-thumbnail.JPG",
       link: "https://cortextree.com",
+    },
+    {
+    title: "AltView",
+      description:
+        "A Red-Ocelot project for visualising repository data from github as well as a supabase DB using a NextJS stack with Recharts and ML insights with github Oauth.",
+      thumbnail: "/images/av-thumbnail.JPG",
+      link: "https://hack-camp.vercel.app",
     }
     
   ];
