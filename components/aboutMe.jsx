@@ -37,14 +37,25 @@ export default function AboutMe() {
           <h2 className="text-2xl font-semibold mb-2 text-black">Skills</h2>
           <div className="flex flex-wrap gap-3">
             {[
-              "React", "Next.js", "Tailwind CSS", "JavaScript", "TypeScript",
-              "HTML5", "CSS3", "Node.js", "Python", "Git", "UI/UX", "java", "PHP"
+              { name: "React", color: "bg-blue-200 text-blue-700" },
+              { name: "Next.js", color: "bg-black text-white" },
+              { name: "Tailwind CSS", color: "bg-cyan-200 text-cyan-700" },
+              { name: "JavaScript", color: "bg-yellow-200 text-yellow-700" },
+              { name: "TypeScript", color: "bg-blue-300 text-blue-800" },
+              { name: "HTML5", color: "bg-orange-200 text-orange-700" },
+              { name: "CSS3", color: "bg-purple-200 text-purple-700" },
+              { name: "Node.js", color: "bg-green-200 text-green-700" },
+              { name: "Python", color: "bg-indigo-200 text-indigo-700" },
+              { name: "Git", color: "bg-red-200 text-red-700" },
+              { name: "UI/UX", color: "bg-pink-200 text-pink-700" },
+              { name: "java", color: "bg-orange-300 text-orange-800" },
+              { name: "PHP", color: "bg-purple-300 text-purple-800" }
             ].map(skill => (
               <span
-                key={skill}
-                className="px-3 py-1 rounded-full bg-zinc-200 text-zinc-700 text-sm font-medium"
+                key={skill.name}
+                className={`px-3 py-1 rounded-full text-sm font-medium ${skill.color}`}
               >
-                {skill}
+                {skill.name}
               </span>
             ))}
           </div>
