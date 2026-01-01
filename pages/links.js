@@ -19,7 +19,7 @@ export default function Links() {
       icon: "💼",
       bgClass: "from-blue-700 to-blue-900",
       glowColor: "shadow-blue-400/30",
-      description: "Let's connect (trying to farm that 500+ games the game)",
+      description: "Let's connect (trying to farm that 500+)",
     },
     {
       name: "Portfolio",
@@ -146,8 +146,25 @@ export default function Links() {
                           ? "translate-x-3 text-white"
                           : "text-white/70"
                       }`}
+                      style={{
+                        fontVariantNumeric: "tabular-nums",
+                        WebkitFontSmoothing: "antialiased",
+                      }}
                     >
-                      ↗
+                      <svg
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        className="inline"
+                      >
+                        <line x1="7" y1="17" x2="17" y2="7"></line>
+                        <polyline points="7 7 17 7 17 17"></polyline>
+                      </svg>
                     </span>
                   </div>
                   <p className="text-white/80 text-xs">
