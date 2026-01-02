@@ -17,7 +17,7 @@ export default function AboutMe() {
           </div>
 
           <a
-            href="/TAYLOR_SHAUN_CV.pdf"
+            href="/SHAUN_TAYLOR_CV.pdf"
             className="shrink-0 inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-black text-white font-semibold hover:bg-pink-600 transition-colors text-base"
             download
             aria-label="Download CV"
