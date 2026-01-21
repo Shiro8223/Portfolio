@@ -44,6 +44,13 @@ export default function Projects() {
         "A Red-Ocelot project for visualising repository data from github as well as a supabase DB using a NextJS stack with Recharts and ML insights with github Oauth.",
       thumbnail: "/images/av-thumbnail.JPG",
       link: "https://hack-camp.vercel.app",
+    },
+    {
+    title: "Elven Dev",
+      description:
+        "Cofounder of Elven Dev; a software company aimed at renovating businesses online presence",
+      thumbnail: "/images/ed-thumbnail.png",
+      link: "https://www.elvendev.com",
     }
     
   ];
