@@ -49,7 +49,7 @@ export default function Projects() {
     title: "Elven Dev",
       description:
         "Cofounder of Elven Dev; a software company aimed at renovating businesses online presence",
-      thumbnail: "/images/ed-thumbnail.png",
+      thumbnail: "/images/ed-thumbnail.PNG",
       link: "https://www.elvendev.com",
     }
     
