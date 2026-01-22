@@ -136,6 +136,20 @@ export default function AboutMe() {
                 Collaborated with a team to create a NextJs deployment using Typescript, Tailwind, React, Prisma DB and Framer Motion.
               </p>
             </li>
+            <li>
+              <div className="flex items-center gap-2">
+                <span className="w-3 h-3 bg-pink-500 rounded-full block"></span>
+                <span className="text-black font-semibold">
+                  CoFounder of Elven Dev
+                </span>
+                <span className="text-xs text-zinc-500 ml-3">
+                  2026-Present
+                </span>
+              </div>
+              <p className="ml-5 text-zinc-700 text-sm">
+                working as a cofounder of a web development agency aimed at increasing businesses online presence through modern web applications.
+              </p>
+            </li>
           </ul>
         </div>
 
