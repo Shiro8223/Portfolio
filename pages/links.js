@@ -89,11 +89,8 @@ export default function Links() {
           {/* Header */}
           <div className="text-center mb-16">
             <h1 className="text-3xl md:text-4xl font-black tracking-tight text-white game-font">
-              My links :)
+              My links
             </h1>
-            <p className="text-white/70 text-sm mt-3 game-font">
-              full time nerd part time pokemon collector
-            </p>
           </div>
 
           {/* Links Grid */}
