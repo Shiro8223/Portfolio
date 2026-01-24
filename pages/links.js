@@ -11,7 +11,7 @@ export default function Links() {
       icon: "🐙",
       bgClass: "from-gray-800 to-black",
       glowColor: "shadow-gray-500/30",
-      description: "Check out my projects & code except my private repositories they're mine unfortunately",
+      description: "Check out my public projects & code",
     },
     {
       name: "LinkedIn",
@@ -19,7 +19,7 @@ export default function Links() {
       icon: "💼",
       bgClass: "from-blue-700 to-blue-900",
       glowColor: "shadow-blue-400/30",
-      description: "Let's connect (trying to farm that 500+)",
+      description: "Let's connect",
     },
     {
       name: "Portfolio",
@@ -31,19 +31,11 @@ export default function Links() {
     },
     {
       name: "Instagram",
-      url: "https://instagram.com/shiroxy8223",
-      icon: "📸",
-      bgClass: "from-pink-500 to-orange-500",
-      glowColor: "shadow-pink-400/30",
-      description: "Stalk my awesome sauce reposts twin",
-    },
-    {
-      name: "Private Instagram",
       url: "https://instagram.com/Shaun_taylor27",
-      icon: "🔒",
+      icon: "📸",
       bgClass: "from-red-700 to-red-900",
       glowColor: "shadow-red-500/30",
-      description: "Only the goats get to go here",
+      description: "Only the cool people get to go here",
     },
     {
       name: "Cortex Tree",
@@ -53,13 +45,7 @@ export default function Links() {
       glowColor: "shadow-blue-500/30",
       description: "My AI B2B & B2C Vertical scaling SaaS startup (🤓)",
     },
-    {
-      name: "S+C's silly cat game",
-      icon: "😼",
-      bgClass: "from-green-700 to-yellow-300",
-      glowColor: "shadow-green-500/30",
-      description: "coming soon - waiting on her to design the assets :)",
-    },
+    
   ];
 
   return (
