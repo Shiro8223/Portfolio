@@ -6,22 +6,6 @@ export default function Links() {
 
   const links = [
     {
-      name: "GitHub",
-      url: "https://github.com/shiro8223",
-      icon: "🐙",
-      bgClass: "from-gray-800 to-black",
-      glowColor: "shadow-gray-500/30",
-      description: "Check out my public projects & code",
-    },
-    {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/shauntaylor21",
-      icon: "💼",
-      bgClass: "from-blue-700 to-blue-900",
-      glowColor: "shadow-blue-400/30",
-      description: "Let's connect",
-    },
-    {
       name: "Portfolio",
       url: "/",
       icon: "🌐",
@@ -30,12 +14,36 @@ export default function Links() {
       description: "See what I'm working on in my professional field!",
     },
     {
+      name: "GitHub",
+      url: "https://github.com/shiro8223",
+      icon: "🐙",
+      bgClass: "from-gray-800 to-black",
+      glowColor: "shadow-gray-500/30",
+      description: "@Shiro8223, Check out my public projects & code",
+    },
+    {
+      name: "LinkedIn",
+      url: "https://www.linkedin.com/in/shauntaylor21",
+      icon: "💼",
+      bgClass: "from-blue-700 to-blue-900",
+      glowColor: "shadow-blue-400/30",
+      description: "@ShaunTaylor21, Let's connect",
+    },
+    {
+      name: "Tiktok",
+      url: "https://www.tiktok.com/@shiro8223",
+      icon: "🎶",
+      bgClass: "from-blue-300 to-blue-400",
+      glowColor: "shadow-blue-500/30",
+      description: "@shiro8223, dopamaxing",
+    },
+    {
       name: "Instagram",
       url: "https://instagram.com/Shaun_taylor27",
       icon: "📸",
       bgClass: "from-red-700 to-red-900",
       glowColor: "shadow-red-500/30",
-      description: "Only the cool people get to go here",
+      description: "@shaun_taylor27, Only the cool people get to go here",
     },
     {
       name: "Cortex Tree",
@@ -44,6 +52,14 @@ export default function Links() {
       bgClass: "from-blue-700 to-red-300",
       glowColor: "shadow-blue-500/30",
       description: "My AI B2B & B2C Vertical scaling SaaS startup (🤓)",
+    },
+    {
+      name: "Elven Dev",
+      url: "https://www.ElvenDev.com",
+      icon: "💻",
+      bgClass: "from-green-700 to-green-900",
+      glowColor: "shadow-green-500/30",
+      description: "Cofounder of the Elven software development agency",
     },
     
   ];
