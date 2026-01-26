@@ -21,14 +21,7 @@ export default function Links() {
       glowColor: "shadow-gray-500/30",
       description: "@Shiro8223, Check out my public projects & code",
     },
-    {
-      name: "LinkedIn",
-      url: "https://www.linkedin.com/in/shauntaylor21",
-      icon: "💼",
-      bgClass: "from-blue-700 to-blue-900",
-      glowColor: "shadow-blue-400/30",
-      description: "@ShaunTaylor21, Let's connect",
-    },
+    
     {
       name: "Tiktok",
       url: "https://www.tiktok.com/@shiro8223",
