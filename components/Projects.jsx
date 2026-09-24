@@ -184,7 +184,7 @@ export default function Projects() {
         ))}
       </motion.div>
 
-      <div className="relative mx-auto max-w-6xl px-14 sm:px-16">
+      <div className="relative mx-auto max-w-6xl sm:px-16">
         <motion.button
           type="button"
           onClick={goPrev}
@@ -193,7 +193,7 @@ export default function Projects() {
           transition={{ duration: 1.6, repeat: Infinity, repeatType: "mirror", ease: "easeInOut" }}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="absolute left-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black text-white w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center text-xl shadow-lg"
+          className="absolute -left-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black text-white w-12 h-12 sm:left-0 sm:w-14 sm:h-14 flex items-center justify-center text-xl shadow-lg"
         >
           &#8592;
         </motion.button>
@@ -205,7 +205,7 @@ export default function Projects() {
           transition={{ duration: 1.6, repeat: Infinity, repeatType: "mirror", ease: "easeInOut" }}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          className="absolute right-0 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black text-white w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center text-xl shadow-lg"
+          className="absolute -right-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-black text-white w-12 h-12 sm:right-0 sm:w-14 sm:h-14 flex items-center justify-center text-xl shadow-lg"
         >
           &#8594;
         </motion.button>
@@ -229,7 +229,11 @@ export default function Projects() {
                 animate={{ flexGrow: isActive ? 8 : 1 }}
                 transition={{ type: "spring", stiffness: 200, damping: 28 }}
                 onClick={() => selectIndex(index)}
-                className="project-card relative flex-shrink min-w-[48px] h-full overflow-hidden cursor-pointer opacity-0 border-r border-black last:border-r-0"
+                className={`project-card relative h-full overflow-hidden cursor-pointer opacity-0 border-r border-black last:border-r-0 ${
+                  isActive
+                    ? "flex-1 min-w-0"
+                    : "hidden min-w-[48px] flex-shrink sm:block"
+                }`}
               >
                 <img
                   src={project.thumbnail}
