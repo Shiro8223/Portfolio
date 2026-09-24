@@ -57,7 +57,7 @@ export default function Contact() {
       className="min-h-[60vh] flex items-center justify-center bg-white py-20"
     >
       <div className="w-full max-w-[1400px] text-center">
-        <h2 className="text-4xl md:text-5xl font-bold mb-6 text-black">
+        <h2 className="font-heading text-4xl md:text-5xl font-bold mb-6 text-black">
           Let's Connect
         </h2>
         <p className="text-zinc-600 text-lg mb-12 max-w-2xl mx-auto">

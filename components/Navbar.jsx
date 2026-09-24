@@ -27,13 +27,13 @@ export default function Navbar() {
       transition={{ type: "spring", stiffness: 110, damping: 18, duration: 0.6, delay: 0.15 }}
     >
       <div className="mx-[50px] flex items-center justify-between">
-        <div className="text-xl font-semibold tracking-tight">S. Taylor Portfolio</div>
+        <div className="font-heading text-xl font-semibold tracking-tight">S. Taylor Portfolio</div>
 
         {/* Desktop links */}
         <div className="hidden md:flex gap-8 text-lg font-medium tracking-tight items-center">
           <a href="#projects" className="nav-link" onClick={go("projects")}>Work</a>
-          <a href="#Resume" className="nav-link" onClick={go("aboutMe")}>Resume</a>
-          
+          <a href="#about" className="nav-link" onClick={go("about")}>About</a>
+
           {/* Social Icons */}
           <div className="flex gap-4 ml-4 border-l border-white/20 pl-4">
             <a 
@@ -92,8 +92,8 @@ export default function Navbar() {
           >
             <div className="px-[50px] py-4 flex flex-col gap-4 text-lg font-medium tracking-tight">
               <a href="#projects" className="nav-link" onClick={go("projects")}>Work</a>
-              <a href="#Resume" className="nav-link" onClick={go("aboutMe")}>Resume</a>
-              
+              <a href="#about" className="nav-link" onClick={go("about")}>About</a>
+
               {/* Mobile Social Icons */}
               <div className="flex gap-4 mt-2 pt-4 border-t border-white/10">
                 <a 

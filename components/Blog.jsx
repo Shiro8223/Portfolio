@@ -100,7 +100,7 @@ export default function Blog() {
   return (
     <section className="min-h-screen w-full bg-white px-2 py-12 flex flex-col items-center">
       {/* Title */}
-      <h1 className="text-5xl font-bold tracking-tight mb-8 text-black text-center w-full">
+      <h1 className="font-heading text-5xl font-bold tracking-tight mb-8 text-black text-center w-full">
         Who am i?
       </h1>
 
