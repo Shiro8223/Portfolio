@@ -158,16 +158,18 @@ export default function AboutMe() {
           <Section accent="border-pink-400 bg-pink-50">
             <h2 className="font-heading mb-5 text-2xl font-semibold text-pink-700">Awards</h2>
             <div className="flex flex-col gap-2 text-zinc-700">
+              <span className="font-medium text-black">First Place, LFG Hackathon</span>
+              <span className="text-sm">2026</span>
+              <span className="mt-4 font-medium text-black">
+                Cash Prize: Quant Trading Challenge
+              </span>
+              <span className="text-sm">2025</span>
               <span className="font-medium text-black">University of Oxford Bebras</span>
               <span className="text-sm">Certificate of Gold, 2023</span>
               <span className="text-sm">Certificate of Distinction, 2021</span>
               <span className="mt-4 font-medium text-black">
                 Academic Excellence in Computer Science
               </span>
-              <span className="mt-4 font-medium text-black">
-                Cash Prize — Quant Trading Challenge
-              </span>
-              <span className="text-sm">2025</span>
             </div>
           </Section>
         </div>
